@@ -7,7 +7,7 @@ you can create RealmChangeListener variable as same as normal variable creation.
 ```java
 RealmChangeListener realmChangeListener;
 ```
-## Step-2 : Creating ChangeListene method
+## Step-2 : Creating ChangeListener method
 ```java
 realmChangeListener = new RealmChangeListener() {
             @Override
