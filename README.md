@@ -8,24 +8,24 @@ you can create RealmChangeListener variable as same as normal variable creation.
 RealmChangeListener realmChangeListener;
 ```
 ## Step-2 : Creating ChangeListene method
-
+```java
 realmChangeListener = new RealmChangeListener() {
             @Override
             public void onChange(Object o) {
                 // code to execute in onChange
             }
         };
-        
+```        
 ## Step-3 : Adding it to Realm
 
 The last step is to add the "realmChangeListener" we created to the Realm object.
-
+```java
 realm.addChangeListener(realmChangeListener);
-
+```
 Thats all..
 
 So the whole code looks like this:
-
+```java
 RealmChangeListener realmChangeListener;
 realmChangeListener = new RealmChangeListener() {
             @Override
@@ -34,5 +34,5 @@ realmChangeListener = new RealmChangeListener() {
             }
         };
 realm.addChangeListener(realmChangeListener);
-
+```
 You can also have a look at the sample code of android given above. Thanks
