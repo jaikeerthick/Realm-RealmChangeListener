@@ -23,5 +23,6 @@ public class MainActivity extends AppCompatActivity {
                 // code to execute in onChange
             }
         };
+        realm.addChangeListener(realmChangeListener);
     }
 }
