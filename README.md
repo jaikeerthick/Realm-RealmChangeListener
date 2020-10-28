@@ -4,10 +4,10 @@ Using RealmChangeListener in Android to get notified when there is any change in
 ## Step-1 : Creating Variable
 
 you can create RealmChangeListener variable as same as normal variable creation.
-
+```java
 RealmChangeListener realmChangeListener;
-
-# Step-2 : Creating ChangeListene method
+```
+## Step-2 : Creating ChangeListene method
 
 realmChangeListener = new RealmChangeListener() {
             @Override
@@ -16,7 +16,7 @@ realmChangeListener = new RealmChangeListener() {
             }
         };
         
-# Step-3 : Adding it to Realm
+## Step-3 : Adding it to Realm
 
 The last step is to add the "realmChangeListener" we created to the Realm object.
 
