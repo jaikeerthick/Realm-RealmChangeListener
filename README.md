@@ -1,7 +1,7 @@
 # Realm-RealmChangeListener
 Using RealmChangeListener in Android to get notified when there is any change in the database and we can perform certain codes, if change in database occured.
 
-# Step-1 : Creating Variable
+## Step-1 : Creating Variable
 
 you can create RealmChangeListener variable as same as normal variable creation.
 
